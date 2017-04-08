@@ -16,5 +16,23 @@ Images for display on the PaPiRus 2.0" screen should be `200x96px` and must be 1
 
 Some example images can be found in the `bmp/` folder.
 
+## Nuts and Bolts
+The PaPiRus HAT consists of a driver board, a small eInk display, and some software that lives on the Pi.
+
+Once set up, updating the display can be done on the Pi's command line:
+
+To print some text to the display:
+
+```shell
+$ papirus-write "Hello, my name is\n SAM HANDWICH"
+```
+
+To draw an image on the display:
+
+```shell
+$ papirus-draw /path/to/file.bmp
+```
+
 ## Useful Links
+
 * **[PaPiRus](https://github.com/PiSupply/PaPiRus)**: documentation for the [PaPiRus ePaper HAT for Raspberry Pi](https://www.pi-supply.com/product/papirus-epaper-eink-screen-hat-for-raspberry-pi/) made and sold by [Pi Supply](https://www.pi-supply.com/).
