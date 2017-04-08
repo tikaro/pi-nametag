@@ -1,4 +1,6 @@
 # Tikaro's Raspberry Pi Nametag Project
+![eInk nametag](readme_nametag.jpg)
+
 I've been hanging around at political gatherings, and I've noticed that nametags are getting a LOT of use.  There's a whole semantic language built up around what kind of nametag you have, and what it says.  Many committee people have made themselves [engraved plastic name tags](https://www.naagtag.com/name-tags/engraved-name-tags), which is the politics equivalent of showing up at the pool hall with your own screw-together [rock maple pool cue](https://www.amazon.com/Flourishes-Protective-Felson-Billiard-Supplies/dp/B00F53CAFK/ref=sr_1_1) in a hard-sided box.
 
 So I am noodling around with an eInk display for a nametag.
